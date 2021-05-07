@@ -21,7 +21,7 @@
         app:layout_constraintWidth_percent="0.6" />
 
     <Button
-        android:id="@+id/addManagersButton"
+        android:id="@+id/addLeadersButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -34,7 +34,7 @@
         app:layout_constraintWidth_percent="0.6" />
 
     <Button
-        android:id="@+id/changeOwnerButton"
+        android:id="@+id/leaveButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintWidth_percent="0.6"
@@ -44,7 +44,7 @@
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/addManagersButton" />
+        app:layout_constraintTop_toBottomOf="@+id/addLeadersButton" />
 
     <Button
         android:id="@+id/deleteComapnyButton"
@@ -56,6 +56,6 @@
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/changeOwnerButton"
+        app:layout_constraintTop_toBottomOf="@+id/leaveButton"
         app:layout_constraintWidth_percent="0.6" />
 </androidx.constraintlayout.widget.ConstraintLayout>

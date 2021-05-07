@@ -9,7 +9,6 @@ package com.example.tasqr;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
@@ -17,7 +16,6 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -61,7 +59,7 @@ public class ManageCompanyPopUp extends DialogFragment {
                 startAddUsersActivity("manageCompanyUsers");
             }
         });
-        addManagersButton = view.findViewById(R.id.addManagersButton);
+        addManagersButton = view.findViewById(R.id.addLeadersButton);
         addManagersButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -74,7 +72,7 @@ public class ManageCompanyPopUp extends DialogFragment {
             }
         });
 
-        changeOwnerButton = view.findViewById(R.id.changeOwnerButton);
+        changeOwnerButton = view.findViewById(R.id.leaveButton);
         changeOwnerButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

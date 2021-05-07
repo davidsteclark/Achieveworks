@@ -35,7 +35,6 @@ public class LeaveCompanyPopUp extends DialogFragment {
 
     private Button leaveCompanyButton;
 
-    private User user;
     private Company company;
     private String logged_mail;
     private String position;
